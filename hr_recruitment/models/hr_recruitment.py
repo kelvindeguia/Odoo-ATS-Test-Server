@@ -1818,6 +1818,7 @@ class Requisition(models.Model):
     testing_datetime = fields.Datetime('Testing Datetime', store=True)
     company_website = fields.Char('Company Website', store=True)
     test_field = fields.Char('Test Field', store=True)
+    test_field_2 = fields.Char('Test Field 2', store=True)
     
     # SLA Fields
     date_source = fields.Datetime('Date Source', store=True)
